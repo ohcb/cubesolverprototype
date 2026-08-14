@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>CUB3 Solver Prototype</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="app">
+    <header>
+      <h1>CUB3 Solver Prototype</h1>
+      <p>3×3 Cube Engine Test</p>
+    </header>
+
+    <section class="panel">
+      <h2>Scramble</h2>
+
+      <div id="scramble" class="scramble">
+        -
+      </div>
+
+      <div class="buttons">
+        <button id="generateScramble">
+          Generate Scramble
+        </button>
+
+        <button id="solve">
+          Solve
+        </button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Cube State</h2>
+
+      <pre id="cubeState">-</pre>
+    </section>
+
+    <section class="panel">
+      <h2>Solution</h2>
+
+      <div id="solution" class="solution">
+        -
+      </div>
+
+      <div id="solutionStatus" class="status">
+        -
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Move Trace</h2>
+
+      <div id="trace" class="trace">
+        -
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Engine Tests</h2>
+
+      <button id="runTests">
+        Run Tests
+      </button>
+
+      <pre id="testResult">-</pre>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
